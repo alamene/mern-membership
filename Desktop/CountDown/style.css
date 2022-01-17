@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cinzel', serif;
+    font-family: 'lato', sans-serif;
+    font-family: 'Allura', cursive;
+    background: url(/Bgd.png);
+    background-size:cover;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #0e1769;
+    font-family: 'Cinzel';
+    margin-top: 40px;
+    padding:1rem; 
+}
+.wed{
+    color:#a3075b;
+    font-family: 'Allura', cursive;
+}
+h3{
+    font-size: 2rem;
+    color: #0691a2;
+    text-align: center;
+    font-family: 'lato';
+}
+.coming-soon{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.countdown{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+
+.day, .hour, .minute, .second{
+    font-size: 3rem;
+    color:#a3075b
+}
+
+.waiting{
+
+    height: 50vh;
+    width: 40vh;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* box-shadow: 0 8px 6px -6px #0691a2; */
+}
+
+.date_block {
+    width: 200px;
+    height: 230px;
+    border: 1px solid #0691a2;
+    box-shadow: 0 8px 6px -6px #0691a2;
+}
+
+.digit {
+    background-color: #0691a2;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+div.digit>p {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+.wording {
+    
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.wording>p {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0691a2 ;
+}
+div.wording>p ~ p {
+    font-family: 'Cinzel', serif;
+    font-size: 1.90rem;
+    font-weight: 700px;
+    color: #0691a2;
+}
+
+.cta-btn{
+    margin-top: -40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.primary-btn{
+    width:100px;
+    border-radius:10px;
+    border: solid #f44336 1px;
+    background-color: #f44336;
+}
+.primary-btn, a {
+    text-decoration: none;
+    color: #fff;
+    font-size:1.2rem;
+    padding:10px 20px;
+    font-family: 'lato';
+}
+
+.secondary-btn{
+    width:100px;
+    border-radius:10px;
+    border: solid #0691a2 1px;
+    background-color: #0691a2;
+    justify-content:center;
+}
+
+i{
+    margin-left:5px;
+}
